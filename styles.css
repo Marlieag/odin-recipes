@@ -1,0 +1,14 @@
+.container {
+    text-align: center;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.image {
+    width: 300px;
+    height: auto;
+}
