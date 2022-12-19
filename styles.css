@@ -1,3 +1,7 @@
+h1{
+    font-size: 36px;
+    text-align:center;
+}
 .container {
     text-align: center;
 }
@@ -6,9 +10,12 @@ ul {
     display: flex;
     justify-content: space-evenly;
 }
-
-
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
 .image {
     width: 300px;
-    height: auto;
+    height: 300px;
+    object-fit: cover;
 }
