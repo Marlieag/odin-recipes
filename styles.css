@@ -1,6 +1,8 @@
 h1{
-    font-size: 36px;
+    font: size 45px; 
     text-align:center;
+    font-family: 'Libre Baskerville', serif;
+    margin-bottom: 50px;
 }
 .container {
     text-align: center;
@@ -13,9 +15,16 @@ ul {
 a {
     color: rgb(0, 0, 0);
     text-decoration: none;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+a:hover {
+    color: rgb(128, 128, 128); 
 }
 .image {
     width: 300px;
     height: 300px;
     object-fit: cover;
+    margin-bottom: 25px;
 }
